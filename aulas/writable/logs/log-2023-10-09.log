@@ -1,0 +1,11 @@
+CRITICAL - 2023-10-09 22:21:35 --> Undefined variable: titulo
+in APPPATH/Views/form_pessoa.php on line 39.
+ 1 APPPATH/Views/form_pessoa.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/www/html/dwilliam/ads107/aulas/app/Views/form_pessoa.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pessoa.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Pessoa->inserir()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
